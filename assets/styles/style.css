@@ -1,0 +1,93 @@
+html, 
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #444444;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #FF6B28;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li, p{
+    margin-bottom: 14px;
+    line-height: 26px;
+}
+
+/* Header */
+header .navbar{
+    background-color: #FF6B28;
+    padding: 15px;
+    text-align: center;
+}
+
+header .top-hero{
+    background: url("../images/hero_bolo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+/* Content */
+.content{
+    max-width: 990px;
+    margin: auto;
+    padding: 0 40px;
+    margin-top: 100px;
+}
+
+.content .card{
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, .25);
+}
+
+.content .card .ingredient-list{
+    margin-bottom: 50px;
+}
+
+.content .card .btn-primary{
+    background-color: #FF6B28;
+    padding: 16px;
+    border-radius: 20px;
+    cursor: url('../images/cursor_ingredientes.png'), default;
+}
+
+/* footer */
+footer{
+    background-color: #FF6B28;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+footer p{
+    max-width: 500px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;   
+}
